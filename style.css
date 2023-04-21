@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Poltawski+Nowy:ital@1&family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+#navbar{
+position: sticky;
+top: 0;
+left: 0;
+z-index: 100;
+padding: .5rem 5rem;
+box-shadow: 5px 5px 20px rgb(0,0,0,.5);
+background-color: black;
+}
+
+.navbar .navbar-brand{
+font-size: 25px;
+font-weight: 800;
+color: chartreuse;
+}
+
+#navbarSupportedContent{
+    color: rgb(206, 200, 191);
+    border-bottom: 2px solid transparent;
+     
+}
+#navbarSupportedContent a:hover{
+    border-bottom: 2px solid greenyellow;
+}
+#navbarSupportedContent button{
+    background:#adff2f;
+    width:5rem;
+    border-radius:15px;
+                                                
+}
+section{
+    width: 100%;
+    min-height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    color: rgb(62, 196, 21);
+
+}
+
+/***Home***/
+#home{
+    background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.8)),url(img2);
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}
+
+#home h1{
+    font-size: 100px;
+    color: white;
+    letter-spacing: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0px 1px 0px #ccc,0px 2px 0px #ccc,0px 3px 0px #ccc,
+                 0px 4px 0px #ccc,0px 5px 0px #ccc,0px 6px 0px #ccc,0px 7px 0px #ccc;
+    
+}
+#home p{
+    font-size: 18px;
+    color: #fff;
+
+    }
+#home .input-group{
+    width: 40%;
+    height: 45px;
+}
+.signin{
+    background-color: green !important;
+    color: white !important;
+    box-shadow: 2px 4px 5px rgb(0,0,0,.3);
+}
+.cart{
+    background-color: rgb(206, 76, 24) !important;
+    color: white !important;
+    box-shadow: 2px 4px 5px rgb(0,0,0,.3);
+}
+/***About***/
+#about{
+    background: linear-gradient(to right,#d6b89f,#75c9be 100%);
+}
+#about h1{
+    font-weight: 800;
+    font-size: 50px;
+    color: #fff;
+}
+#about p{
+    color: #ccc;
+}
+
+/**Product**/ 
+#product{
+    
+    background: linear-gradient(to top,#eeeef1,#c7c6c7 100%);
+}
+#product h1{
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+#product img{
+    width: 200px;
+    height: 200px;
+
+}
+.card{
+    width: 250px;
+    height: 300px;
+    background: #edf0e9 !important;
+    border: none !important;
+    box-shadow: 15px 20px 20px rgb(0,0,0,.3),inset 4px 4px 10px #ccc;
+    border-radius: 20px !important;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 60px;
+}
+
+.card:hover{
+    box-shadow: inset 5px 5px 10px rgba(10, 10, 10, 0.3),
+                inset -4px -4px 10px #ccc;
+                transition: .2s;
+}
+
+/***contuct***/
+#contact{
+    background: linear-gradient(to right,#a7c6c7,#e7e972 100%);
+}
+
+#contact img{
+    height:100%;
+}
+
+.box{
+    width:80% !important;
+    margin-top: 10px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+#contact input{
+    margin: 10px 0px;
+
+}
+#contact textarea{
+    margin: 10px 0px;
+}
+footer{
+    width: 100%;
+    height: 30px;
+    background: rgb(0,0,0,.8);
+    margin-top: -30px;
+    text-align:center;
+    color: #edf0e9;
+    padding: 3px;
+
+}
+.sn{
+
+    text-align:center;
+}
